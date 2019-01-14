@@ -10,9 +10,9 @@ class FilmList extends Component {
     });
 
     return (
-      <div className="film-list">
+      <ul className="film-list">
         {filmLinkNodes}
-      </div>
+      </ul>
     );
 
   }

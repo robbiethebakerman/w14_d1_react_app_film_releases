@@ -4,7 +4,9 @@ class FilmLink extends Component {
 
   render() {
     return (
-      <p>Film</p>
+      <li className="film-link">
+        <a href={this.props.url}>{this.props.children}</a>
+      </li>
     );
   }
 
