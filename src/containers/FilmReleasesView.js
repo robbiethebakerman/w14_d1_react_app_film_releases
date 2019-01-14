@@ -40,7 +40,7 @@ class FilmReleasesView extends Component {
       <div className="film-releases-view">
         <h1>Upcoming Film Releases for UK</h1>
         <FilmList data={this.state.data}/>
-        <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a>
+        <a className="upcoming-link" href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a>
       </div>
     );
   }
